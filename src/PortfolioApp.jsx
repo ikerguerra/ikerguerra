@@ -71,7 +71,7 @@ function PortfolioApp() {
 
         {/* Stack */}
         <h3 className='my-5 border-bottom border-primary'>Stack</h3>
-        <ul>
+        <ul className='stack'>
           <li><i className="fa-brands fa-js"></i></li>
         </ul>
 

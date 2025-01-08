@@ -18,6 +18,14 @@ $headings-font-size-h4: 1.375rem;
 $lead-font-size: 1.2rem;
 $lead-font-weight: 500;
 
+ul {
+  list-style: none;
+}
+
+.stack .fa-brands {
+  font-size: 60px;
+}
+
 /*
 a:hover {
   color: #0e9271;
