@@ -93,12 +93,12 @@ function PortfolioApp() {
         <h3 className='my-5 border-bottom border-primary'>Contacto</h3>
 
         <form>
-          <div className='d-flex'>
-            <div class="mb-3">
+          <div className='d-flex row'>
+            <div class="mb-3 col-6">
               <label for="exampleInputEmail1" class="form-label">Nombre</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Nombre' />
             </div>
-            <div class="mb-3">
+            <div class="mb-3 col-6">
               <label for="exampleInputPassword1" class="form-label">Apellido</label>
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder='Apellido' />
             </div>
