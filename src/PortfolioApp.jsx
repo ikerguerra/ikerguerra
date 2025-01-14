@@ -44,7 +44,7 @@ function PortfolioApp() {
       {/* <!--hero header--> */}
       <section className="py-7 py-md-0 bg-hero" id="home">
         <div className="container">
-          <div className="row vh-md-100">
+          <div className="row vh-100">
             <div className="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
               <h1 className="heading-black">¡Bienvenid@ a mi portfolio!</h1>
               <h2 className="py-3">Soy Iker, <span className='text-primary'>Desarrollador Full-Stack</span></h2>
