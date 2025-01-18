@@ -2,6 +2,7 @@ import logo from './logo.svg';
 // import './default.css';
 
 function PortfolioApp() {
+  const año = new Date();
   return (
     <div className="App">
       {/* <!--navigation--> */}
@@ -19,16 +20,16 @@ function PortfolioApp() {
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav ms-auto">
                 <li className="nav-item">
-                  <a className="nav-link page-scroll" href="#features">Inicio</a>
+                  <a className="nav-link page-scroll" href="#inicio">Inicio</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link page-scroll" href="#pricing">Sobre mí</a>
+                  <a className="nav-link page-scroll" href="#sobremi">Sobre mí</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link page-scroll" href="#faq">Proyectos</a>
+                  <a className="nav-link page-scroll" href="#proyectos">Proyectos</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link page-scroll" href="#blog">Contacto</a>
+                  <a className="nav-link page-scroll" href="#contacto">Contacto</a>
                 </li>
                 <li className="nav-item">
                   <a className="nav-link page-scroll d-flex flex-row align-items-center text-primary" href="https://www.linkedin.com/in/iker-guerra-mielgo">
@@ -64,32 +65,69 @@ function PortfolioApp() {
       <div className='container mt-8 p-5'>
         {/* Sobre mí */}
         <h3 className='my-5 border-bottom border-primary'>Sobre mí</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis accusantium explicabo, dignissimos neque cupiditate, molestias rem reprehenderit laudantium 
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis accusantium explicabo, dignissimos neque cupiditate, molestias rem reprehenderit laudantium
           dolorum aut ullam nostrum repellendus iste ex maxime tenetur atque laboriosam accusamus?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem numquam suscipit est? Quos sit voluptatum dolor alias distinctio fugit ad totam repellat accusamus. 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem numquam suscipit est? Quos sit voluptatum dolor alias distinctio fugit ad totam repellat accusamus.
           Obcaecati, autem aliquam similique deserunt quibusdam ducimus?</p>
 
         {/* Stack */}
         <h3 className='my-5 border-bottom border-primary'>Stack</h3>
-        <ul className='stack'>
-          <li><i className="fa-brands fa-js"></i></li>
+        <ul className='list-unstyled'>
+          <li><i className="fa-brands fa-js fa-4x"></i></li>
         </ul>
 
         {/* Experiencia */}
         <h3 className='my-5 border-bottom border-primary'>Experiencia</h3>
 
+        <ol className='border-start border-primary list-unstyled mx-sm-4 position-relative'>
+          <li className='mb-5 ms-4'>
+            <div className="rounded-circle bg-primary position-absolute" style={{ width: '1rem', height: '1rem', 'inset-inline-start': '-0.5rem', 'margin-top': '0.25rem' }}></div>
+            <p>Marzo 2022 - Enero 2023</p>
+            <h4 className="cargo heading-black">Desarrollador Full Stack</h4>
+            <div className="descripcion">Desarrollo y mantenimiento de aplicaciones empresariales del sector sanitario</div>
+            <p>Experiencia en entorno Back End con tecnologías como Java y Spring Boot</p>
+            <p>Experiencia en entorno Front End con tecnologías como JavaScript y ExtJS</p>
+            <p>Gestión de bases de datos relacionales con MySQL</p>
+            <p>Gestión del ciclo de vida de los proyectos empleando metodologías ágiles como SCRUM y herramientas como JIRA</p>
+          </li>
+          <li className='mb-5 ms-4'>
+            <div className="rounded-circle bg-primary position-absolute" style={{ width: '1rem', height: '1rem', 'inset-inline-start': '-0.5rem', 'margin-top': '0.25rem' }}></div>
+            <p>Marzo 2022 - Enero 2023</p>
+            <h4 className="cargo heading-black">Desarrollador Full Stack</h4>
+            <div className="descripcion">Desarrollo y mantenimiento del portal de empleados del cliente</div>
+            <p>Experiencia en entorno Back End con tecnologías como Java y Spring Boot</p>
+            <p>Experiencia en entorno Front End con tecnologías como TypeScript y Angular</p>
+            <p>Gestión de bases de datos relacionales con SQL Server</p>
+            <p>Implementé servicios RESTful y APIs escalables para comunicación entre cliente y servidor.</p>
+            <p>Gestión del ciclo de vida de los proyectos empleando herramientas como JIRA</p>
+          </li>
+        </ol>
+
         {/* Formación */}
         <h3 className='my-5 border-bottom border-primary'>Formación</h3>
 
-      </div>
+        <ol className='border-start border-primary list-unstyled mx-sm-4 position-relative'>
+          <li className='mb-5 ms-4'>
+            <div className="rounded-circle bg-primary position-absolute" style={{ width: '1rem', height: '1rem', 'inset-inline-start': '-0.5rem', 'margin-top': '0.25rem' }}></div>
+            <p>Presente</p>
+            <h4 className="cargo heading-black">CP en Desarrollo de Tecnologías Web</h4>
+            <p>Dicampus</p>
+          </li>
+          <li className='mb-5 ms-4'>
+            <div className="rounded-circle bg-primary position-absolute" style={{ width: '1rem', height: '1rem', 'inset-inline-start': '-0.5rem', 'margin-top': '0.25rem' }}></div>
+            <p>Diciembre 2021</p>
+            <h4 className="cargo heading-black">Grado Superior en Desarrollo de Aplicaciones Multiplataforma</h4>
+            <p>IES Número 1</p>
+          </li>
+        </ol>
 
-      {/* Proyectos */}
-      <div className='container mt-8 p-5'>
+
         <h3 className='my-5 border-bottom border-primary'>Mis proyectos</h3>
-      </div>
+        <h4 className='text-center'>Toy en ello jajaja</h4>
 
-      {/* Contacto */}
-      <div className='container mt-8 p-5'>
+
+        {/* Contacto */}
+
         <h3 className='my-5 border-bottom border-primary'>Contacto</h3>
 
         <form>
@@ -118,52 +156,23 @@ function PortfolioApp() {
       {/* footer */}
       <footer className="py-5">
         <div className="container mt-8 p-5">
-          <div className="row">
-            <div className="col-sm-6 mr-auto">
-              <h5>About Knight</h5>
-              <p className="text-muted">Magnis modipsae que voloratati andigen daepeditem quiate conecus aut labore.
-                Laceaque quiae sitiorem rest non restibusaes maio es dem tumquam explabo.</p>
-              <ul className="list-inline social social-sm">
-                <li className="list-inline-item">
-                  <a href=""><i className="fa-brands fa-facebook"></i></a>
-                </li>
-                <li className="list-inline-item">
-                  <a href=""><i className="fa-brands fa-twitter"></i></a>
-                </li>
-                <li className="list-inline-item">
-                  <a href=""><i className="fa-brands fa-google-plus"></i></a>
-                </li>
-                <li className="list-inline-item">
-                  <a href=""><i className="fa-brands fa-dribbble"></i></a>
-                </li>
-              </ul>
-            </div>
-            <div className="col-sm-2">
-              <h5>Legal</h5>
-              <ul className="list-unstyled">
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Refund policy</a></li>
-              </ul>
-            </div>
-            <div className="col-sm-2">
-              <h5>Partner</h5>
-              <ul className="list-unstyled">
-                <li><a href="#">Refer a friend</a></li>
-                <li><a href="#">Affiliates</a></li>
-              </ul>
-            </div>
-            <div className="col-sm-2">
-              <h5>Help</h5>
-              <ul className="list-unstyled">
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Log in</a></li>
-              </ul>
-            </div>
-          </div>
+          <ul className="list-inline social social-sm">
+            <li className="list-inline-item">
+              <a href=""><i className="fa-brands fa-facebook"></i></a>
+            </li>
+            <li className="list-inline-item">
+              <a href=""><i className="fa-brands fa-twitter"></i></a>
+            </li>
+            <li className="list-inline-item">
+              <a href=""><i className="fa-brands fa-google-plus"></i></a>
+            </li>
+            <li className="list-inline-item">
+              <a href=""><i className="fa-brands fa-dribbble"></i></a>
+            </li>
+          </ul>
           <div className="row mt-5">
             <div className="col-12 text-muted text-center small-xl">
-              &copy; 2019 Knight - All Rights Reserved
+              &copy; {año.getFullYear()} Iker Guerra - Web creada con React <i class="fa-brands fa-react fa-2xl"></i>
             </div>
           </div>
         </div>
