@@ -49,7 +49,9 @@ function PortfolioApp() {
             <div className="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
               <h1 className="heading-black">¡Bienvenid@ a mi portfolio!</h1>
               <h2 className="py-3">Soy Iker, <span className='text-primary'>Desarrollador Full-Stack</span></h2>
-              <p className="lead py-3">Me gusta el código limpio y crear diseños simples e intuitivos, pero que a su vez no pasen desapercibidos.</p>
+              <p className="lead py-3">Explora mi portafolio para descubrir mi experiencia y aplicaciones desarrolladas con tecnologías como Java, React, Spring y Angular.
+              Mi pasión es transformar ideas en código y convertir desafíos en proyectos exitosos. 
+              </p>
               <form action="./templates/products.php">
                 <a className="btn btn-primary d-inline-flex flex-row align-items-center" href="CV_IkerGuerraMielgo.pdf" download="CV_IkerGuerraMielgo.pdf">
                   Descargar CV
@@ -72,8 +74,13 @@ function PortfolioApp() {
 
         {/* Stack */}
         <h3 className='my-5 border-bottom border-primary'>Stack</h3>
-        <ul className='list-unstyled'>
-          <li><i className="fa-brands fa-js fa-4x"></i></li>
+        <ul className='list-unstyled d-flex justify-content-between row'>
+          <li className='col-auto col-sm-auto mb-5'><i className="fa-brands fa-java fa-4x"></i></li>
+          <li className='col-auto col-sm-auto mb-5'><i className="fa-brands fa-js fa-4x"></i></li>
+          <li className='col-auto col-sm-auto mb-5'><i className="fa-brands fa-react fa-4x"></i></li>
+          <li className='col-auto col-sm-auto mb-5'><i className="fa-brands fa-angular fa-4x"></i></li>
+          <li className='col-auto col-sm-auto mb-5'><i className="fa-brands fa-git-alt fa-4x"></i></li>
+          <li className='col-auto col-sm-auto mb-5'><i className="fa-brands fa-bootstrap fa-4x"></i></li>
         </ul>
 
         {/* Experiencia */}
