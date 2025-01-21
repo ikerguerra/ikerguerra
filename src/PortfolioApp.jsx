@@ -56,8 +56,8 @@ function PortfolioApp() {
                 <a className="btn btn-primary d-inline-flex flex-row align-items-center" href="CV_IkerGuerraMielgo.pdf" download="CV_IkerGuerraMielgo.pdf">
                   Descargar CV
                   <em className="ml-2" data-feather="arrow-right"></em>
-                  <i class="fa-solid fa-cloud-arrow-down fa-md ms-2"></i>
-                </button>
+                  <i className="fa-solid fa-cloud-arrow-down fa-md ms-2"></i>
+                </a>
               </form>
             </div>
           </div>
@@ -88,7 +88,7 @@ function PortfolioApp() {
 
         <ol className='border-start border-primary list-unstyled mx-sm-4 position-relative'>
           <li className='mb-5 ms-4'>
-            <div className="rounded-circle bg-primary position-absolute" style={{ width: '1rem', height: '1rem', 'inset-inline-start': '-0.5rem', 'margin-top': '0.25rem' }}></div>
+            <div className="rounded-circle bg-primary position-absolute circle-list"></div>
             <p>Marzo 2022 - Enero 2023</p>
             <h4 className="cargo heading-black">Desarrollador Full Stack</h4>
             <div className="descripcion">Desarrollo y mantenimiento de aplicaciones empresariales del sector sanitario</div>
@@ -98,7 +98,7 @@ function PortfolioApp() {
             <p>Gestión del ciclo de vida de los proyectos empleando metodologías ágiles como SCRUM y herramientas como JIRA</p>
           </li>
           <li className='mb-5 ms-4'>
-            <div className="rounded-circle bg-primary position-absolute" style={{ width: '1rem', height: '1rem', 'inset-inline-start': '-0.5rem', 'margin-top': '0.25rem' }}></div>
+            <div className="rounded-circle bg-primary position-absolute circle-list"></div>
             <p>Marzo 2022 - Enero 2023</p>
             <h4 className="cargo heading-black">Desarrollador Full Stack</h4>
             <div className="descripcion">Desarrollo y mantenimiento del portal de empleados del cliente</div>
@@ -115,13 +115,13 @@ function PortfolioApp() {
 
         <ol className='border-start border-primary list-unstyled mx-sm-4 position-relative'>
           <li className='mb-5 ms-4'>
-            <div className="rounded-circle bg-primary position-absolute" style={{ width: '1rem', height: '1rem', 'inset-inline-start': '-0.5rem', 'margin-top': '0.25rem' }}></div>
+            <div className="rounded-circle bg-primary position-absolute circle-list"></div>
             <p>Presente</p>
             <h4 className="cargo heading-black">CP en Desarrollo de Tecnologías Web</h4>
             <p>Dicampus</p>
           </li>
           <li className='mb-5 ms-4'>
-            <div className="rounded-circle bg-primary position-absolute" style={{ width: '1rem', height: '1rem', 'inset-inline-start': '-0.5rem', 'margin-top': '0.25rem' }}></div>
+            <div className="rounded-circle bg-primary position-absolute circle-list"></div>
             <p>Diciembre 2021</p>
             <h4 className="cargo heading-black">Grado Superior en Desarrollo de Aplicaciones Multiplataforma</h4>
             <p>IES Número 1</p>
@@ -139,24 +139,24 @@ function PortfolioApp() {
 
         <form>
           <div className='d-flex row'>
-            <div class="mb-3 col-6">
-              <label for="exampleInputEmail1" class="form-label">Nombre</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Nombre' />
+            <div className="mb-3 col-6">
+              <label htmlFor="inputNombre" className="form-label">Nombre</label>
+              <input type="text" className="form-control" id="inputNombre" placeholder='Nombre' />
             </div>
-            <div class="mb-3 col-6">
-              <label for="exampleInputPassword1" class="form-label">Apellido</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder='Apellido' />
+            <div className="mb-3 col-6">
+              <label htmlFor="inputApellido" className="form-label">Apellido</label>
+              <input type="text" className="form-control" id="inputApellido" placeholder='Apellido' />
             </div>
           </div>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='email@email.com' />
+          <div className="mb-3">
+            <label htmlFor="inputEmail" className="form-label">Email</label>
+            <input type="email" className="form-control" id="inputEmail" placeholder='email@email.com' />
           </div>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <textarea className='form-control' name="mensaje" id="mensaje" placeholder='Escribe tu mensaje'></textarea>
+          <div className="mb-3">
+            <label htmlFor="textAreaMensaje" className="form-label">Mensaje</label>
+            <textarea className='form-control' name="mensaje" id="textAreaMensaje" placeholder='Escribe tu mensaje' rows="5"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
+          <button type="submit" className="btn btn-primary">Enviar</button>
         </form>
       </div>
 
@@ -179,19 +179,11 @@ function PortfolioApp() {
           </ul>
           <div className="row mt-5">
             <div className="col-12 text-muted text-center small-xl">
-              &copy; {año.getFullYear()} Iker Guerra - Web creada con React <i class="fa-brands fa-react fa-2xl"></i>
+              &copy; {año.getFullYear()} Iker Guerra - Web creada con React <i className="fa-brands fa-react fa-2xl"></i>
             </div>
           </div>
         </div>
       </footer>
-
-      {/* <!-- jQuery first, then Popper.js, then Bootstrap JS --> */}
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.7.3/feather.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-      <script src="../assets/js/scripts.js"></script>
     </div>
   );
 }
