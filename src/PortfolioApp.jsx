@@ -51,7 +51,7 @@ function PortfolioApp() {
               <h2 className="py-3">Soy Iker, <span className='text-primary'>Desarrollador Full-Stack</span></h2>
               <p className="lead py-3">Me gusta el código limpio y crear diseños simples e intuitivos, pero que a su vez no pasen desapercibidos.</p>
               <form action="./templates/products.php">
-                <button className="btn btn-primary d-inline-flex flex-row align-items-center">
+                <a className="btn btn-primary d-inline-flex flex-row align-items-center" href="CV_IkerGuerraMielgo.pdf" download="CV_IkerGuerraMielgo.pdf">
                   Descargar CV
                   <em className="ml-2" data-feather="arrow-right"></em>
                   <i class="fa-solid fa-cloud-arrow-down fa-md ms-2"></i>
