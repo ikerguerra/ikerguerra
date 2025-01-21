@@ -1,47 +1,15 @@
 import logo from './logo.svg';
 // import './default.css';
+import { Navigation } from './Navigation';
 
 function PortfolioApp() {
   const año = new Date();
   return (
     <div className="App">
-      {/* <!--navigation--> */}
-      <section className="smart-scroll">
-        <div className="container-fluid">
-          <nav className="navbar navbar-expand-md navbar-dark">
-            <a className="navbar-brand heading-black" href="index.php">
-              IKER GUERRA
-            </a>
-            <button className="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse"
-              data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span data-feather="grid"></span>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarCollapse">
-              <ul className="navbar-nav ms-auto">
-                <li className="nav-item">
-                  <a className="nav-link page-scroll" href="#inicio">Inicio</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link page-scroll" href="#sobremi">Sobre mí</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link page-scroll" href="#proyectos">Proyectos</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link page-scroll" href="#contacto">Contacto</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link page-scroll d-flex flex-row align-items-center text-primary" href="https://www.linkedin.com/in/iker-guerra-mielgo">
-                    <em data-feather="layout" width="18" height="18" className="mr-2"></em>
-                    LinkedIn
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </section>
+
+      {/* Componente para la navegacion */}
+      <Navigation/>
+
       {/* <!--hero header--> */}
       <section className="py-7 py-md-0 bg-hero" id="home">
         <div className="container">
