@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 // import './default.css';
-import { Navigation } from './Navigation';
+import { Navigation } from './components/Navigation';
 
 function PortfolioApp() {
   const año = new Date();
