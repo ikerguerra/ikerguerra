@@ -2,6 +2,7 @@ import logo from './logo.svg';
 // import './default.css';
 import { Navigation } from './components/Navigation';
 import { Contacto } from './components/Contacto';
+import { SpeedInsights } from "@vercel/speed-insights/react"
 
 function PortfolioApp() {
   const año = new Date();
@@ -132,6 +133,8 @@ function PortfolioApp() {
           </div>
         </div>
       </footer>
+
+      <SpeedInsights />
     </div>
   );
 }
