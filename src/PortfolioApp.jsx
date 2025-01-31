@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import { Navigation } from './components/Navigation';
 import { Contacto } from './components/Contacto';
 import { SpeedInsights } from "@vercel/speed-insights/react"
+import { Analytics } from "@vercel/analytics/react"
 
 function PortfolioApp() {
   const año = new Date();
