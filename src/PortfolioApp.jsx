@@ -24,7 +24,7 @@ function PortfolioApp() {
               Mi pasión es transformar ideas en código y convertir desafíos en proyectos exitosos. 
               </p>
               <form action="./templates/products.php">
-                <a className="btn btn-primary d-inline-flex flex-row align-items-center" href="CV_IkerGuerraMielgo.pdf" download="CV_IkerGuerraMielgo.pdf">
+                <a className="btn btn-primary d-inline-flex flex-row align-items-center" href="CV_IkerGuerraMielgo.pdf">
                   Descargar CV
                   <em className="ml-2" data-feather="arrow-right"></em>
                   <i className="fa-solid fa-cloud-arrow-down fa-md ms-2"></i>
