@@ -135,6 +135,7 @@ function PortfolioApp() {
       </footer>
 
       <SpeedInsights />
+      <Analytics />
     </div>
   );
 }
