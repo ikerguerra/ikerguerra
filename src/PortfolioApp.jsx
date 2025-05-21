@@ -15,7 +15,7 @@ function PortfolioApp() {
       <Navigation/>
 
       {/* <!--hero header--> */}
-      <section className="py-7 py-md-0 bg-hero" id="home">
+      <section className="py-7 py-md-0 bg-hero" id="home" style={{ backgroundImage: 'url("/bghero.jpg")' }}>
         <div className="container">
           <div className="row vh-100">
             <div className="col-md-8 col-sm-10 col-12 mx-auto my-auto text-center">
