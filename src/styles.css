@@ -311,7 +311,7 @@ body {
 
 .bg-hero {
     background-color: #999999;
-    background-image: url("https://img.freepik.com/foto-gratis/fotografia-lateral-editor-codigo-que-utiliza-react-js_181624-61842.jpg?t=st=1735500544~exp=1735504144~hmac=a7a6307ef117afab7a2e9c7e32f2544554e7cb630b9fe8a00015ce1957f1968e&w=1380");
+    background-image: url("../public/bghero.jpg");
     /* background by SVGBackgrounds.com */
     /* background-attachment: fixed; */
     background-position: center;
