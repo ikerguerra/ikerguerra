@@ -2,6 +2,7 @@ import logo from './logo.svg';
 // import './default.css';
 import { Navigation } from './components/Navigation';
 import { Contacto } from './components/Contacto';
+import { Proyectos } from './components/Proyectos';
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import { Analytics } from "@vercel/analytics/react"
 
@@ -99,10 +100,9 @@ function PortfolioApp() {
           </li>
         </ol>
 
-
+        {/* Proyectos */}
         <h3 className='my-5 border-bottom border-primary'>Mis proyectos</h3>
-        <h4 className='text-center'>Toy en ello jajaja</h4>
-
+        <Proyectos />
 
         {/* Contacto */}
 
