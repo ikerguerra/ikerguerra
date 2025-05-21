@@ -695,3 +695,19 @@ footer h5 {
         display: none;
     }
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  color: var(--bs-body-color);
+  -webkit-text-fill-color: var(--bs-body-color) !important;
+  background-color: var(--bs-body-bg);
+  caret-color: white;
+  transition: background-color 5000s ease-in-out 0s;
+}
