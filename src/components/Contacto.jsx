@@ -26,8 +26,8 @@ export const Contacto = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID, form.current, {
-                publicKey: process.env.PUBLIC_KEY,
+            .sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, {
+                publicKey: process.env.REACT_APP_PUBLIC_KEY,
             })
             .then(
                 () => {
